@@ -1,6 +1,10 @@
 //Start coding here
 const greeting = "Hello ! 😁";
 
-greeting();
+function display(word) 
 
-console.log("This line will be executed without any error.");
+{console.log(`${word} \nThis line will be executed without any error.`)}
+
+display(greeting)
+
+
